@@ -14,83 +14,29 @@ const ContactUs = () => {
 
   
 	<div class="container-fluid justify-content-center row parentContact pt-5 pb-5">
-		<div class=" col-md-3">
-                    <form >
-                        <div class="card formDiv rounded">
-                            <div class="card-header p-0">
-                                <div class="bg-dark text-white text-center py-2">
-                                    <h3><i class="fa fa-envelope"></i> Contact us</h3>
-                                    <p class="m-0">We Reply in Less than 24 hours</p>
+		<div class=" col-md-4 ">
+                            <div>
+                                <div class="map-responsive embed-responsive embed-responsive-16by9" >
+                                    <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.5401333993036!2d7.513216064926389!3d9.0143920691069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0dfb58b60cf7%3A0x771342cebd76b032!2sAsokoro%20Extension.!5e0!3m2!1sen!2sng!4v1676891093003!5m2!1sen!2sng" 
+                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"  frameborder="0" style={{border:"0", width: "100%"}} allowfullscreen></iframe>
                                 </div>
-                            </div>
-                            <div class="card-body p-3 pt-5" >
+                              </div>
+                       
+                            
+                        
 
-                                {/* <!--Body--> */}
-                                <div class="form-group ">
-                                    <div class="input-group mb-4">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
-                                        </div>
-                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Name" required/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="input-group mb-4">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
-                                        </div>
-                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required/>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="input-group mb-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
-                                        </div>
-                                        <textarea class="form-control" rows="5" placeholder="Please write a message" required></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="text-center">
-                                    <input type="submit" value="Submit" class="btn btn-dark btn-block rounded-0 py-2"/>
-                                </div>
-                            </div>
-
-                        </div>
-                    </form>
-                    {/* <!--Form with header--> */}
+                  
                     
 	</div>
-    <div class="col-6">
+    <div class="col-md-6 ">
     <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+  <iframe height="900" class="embed-responsive-item" src="https://www.youtube.com/embed/_Mcyb7RorWc?rel=0"  allowfullscreen></iframe>
 </div>
     </div>
   </div>
-  
 </div>
-                        <div >
-                         <div className=' container  secondDiv mt-2  row'>
-                            <div className='col-6 realestatVector bg-primary'>
-                            <div class=" py-0 px-0">
-                                <div class="map_container">
-                                <div class="map-responsive">
-                                    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="900" frameborder="0" style={{border:"0", width: "100%", height:"500px"}} allowfullscreen></iframe>
-                                </div>
-                              </div>
-                            </div>
-                                                    
-                            
-                            </div>
-
-                            <div className='col-4'>
-                                <img src={juken} alt='juken img'/>
-                            </div>
                        
-                        </div>
-                        
-                    </div>
 </section>
 
     </div>

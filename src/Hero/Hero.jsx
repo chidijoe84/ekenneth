@@ -64,11 +64,11 @@ const Hero = () => {
             <div class="detail-box">
               <h1>
                 <span> Modern</span> <br/>
-                Apartment <br/>
+                Apartment 
                 House
               </h1>
               <p>
-                It is a long established fact that a reader will be distracted by the readable content of
+              What better way could business owners reap their well deserved returns in investment but to claim a unit in our mall?
               </p>
               <div class="btn-box">
                 <a href="" class="">

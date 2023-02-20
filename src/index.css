@@ -63,7 +63,7 @@ body {
 
 /*header section*/
 .hero_area {
-  background-image: url(../src/images/hero-bg.jpg);
+  background-image: url(../src/images/hero-bg.jpg); 
   position: relative;
   background-repeat: no-repeat;
   background-position: top right;
@@ -326,12 +326,12 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
-/* .features{
-  display: flex;
+.features{
+  /* display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-} */
+  justify-content: center; */
+}
 .connectRoad{
   font-size: 1.12em;
   font-weight: 600;
@@ -364,6 +364,18 @@ a:focus {
   border-bottom-right-radius: 20px ;
 }
 .para1:hover{
+  background-color: #004EFF;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.para1:active{
+  background-color: #004EFF;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+#firstDiv:focus{
   background-color: #004EFF;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
@@ -620,6 +632,8 @@ a:focus {
   /* background-color: red; */
   width: 50%;
   text-align: center;
+  color: #606C85;
+  font-size: 0.9em;
 }
 .jukenPrice2{
   background-color: #3a4863 ;

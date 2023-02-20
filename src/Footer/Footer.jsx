@@ -1,4 +1,8 @@
 import React from 'react'
+import instagram from '../images/instagram.png'
+import twitter from '../images/twitter.png'
+import linkedin from '../images/linkedin.png'
+import fb from '../images/fb.png'
 
 const Footer = () => {
   return (
@@ -68,7 +72,7 @@ const Footer = () => {
               <img src="images/location.png" width="18px" alt=""/>
             </div>
             <p>
-              Address
+             
             </p>
           </div>
           <div>
@@ -76,7 +80,7 @@ const Footer = () => {
               <img src="images/phone.png" width="12px" alt=""/>
             </div>
             <p>
-              +234 1234567890
+              +234 07037631029
             </p>
           </div>
           <div>
@@ -84,7 +88,7 @@ const Footer = () => {
               <img src="images/mail.png" width="18px" alt=""/>
             </div>
             <p>
-              ekenneth@gmail.com
+            ekenneth.properties@gmail.com
             </p>
           </div>
         </div>
@@ -95,47 +99,33 @@ const Footer = () => {
             Information
           </h5>
           <p>
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          Juken mall is located in Abuja's tranquil and exclusive area of Guzape
           </p>
         </div>
       </div>
-
+              
       <div class="col-md-3">
         <div class="info_links">
           <h5>
-            Useful Link
+          Address
           </h5>
           <ul>
             <li>
               <a href="">
-                There are many
+              plot 1510 Cadastral Zone A09
               </a>
             </li>
             <li>
               <a href="">
-                variations of
+              Guzape diplomatic
               </a>
             </li>
             <li>
               <a href="">
-                passages of
+              behind common wealth of Zion Assembly (COZA Church)
               </a>
             </li>
-            <li>
-              <a href="">
-                Lorem Ipsum
-              </a>
-            </li>
-            <li>
-              <a href="">
-                available, but
-              </a>
-            </li>
-            <li>
-              <a href="">
-                the i
-              </a>
-            </li>
+            
           </ul>
         </div>
       </div>
@@ -152,16 +142,16 @@ const Footer = () => {
           </form>
           <div class="social_box">
             <a href="">
-              <img src="images/fb.png" alt=""/>
+              <img src={fb} alt=""/>
             </a>
             <a href="">
-              <img src="images/twitter.png" alt=""/>
+              <img src={linkedin} alt=""/>
             </a>
             <a href="">
-              <img src="images/linkedin.png" alt=""/>
+              <img src={twitter} alt=""/>
             </a>
-            <a href="">
-              <img src="images/youtube.png" alt=""/>
+            <a href="https://www.instagram.com/e_kenneth_properties/">
+              <img src={instagram} alt=""/>
             </a>
           </div>
         </div>
@@ -178,7 +168,7 @@ const Footer = () => {
   <div class="container">
     <p>
       &copy; <span id="displayYear"></span> All Rights Reserved By 
-       <a href="https://html.design/"> Ekenneth</a>
+       <a href=""> Ekenneth</a>
     </p>
   </div>
 </section>

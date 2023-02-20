@@ -17,7 +17,7 @@ const Pricing = () => {
       <div class="price_container">
         <div class="box">
           <div class="detail-box">
-            <div class="heading-box">
+            <div class="heading-box">    
               <h4>
                 01
               </h4>

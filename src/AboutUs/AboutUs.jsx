@@ -57,11 +57,11 @@ const AboutUs = () => {
            
             <div className='features'>
               <div className='row '>
-              <div className='col border m-2 p-3  shadow-sm para1'>
+               <div className='col-md-3 border m-2 p-3  shadow-sm para1  ' id='firstDiv' tabindex="0">
                 <div className=' p-2 pt-3 pb-3  iconDiv'>
                   <GiRoad/>
              </div>
-             <p><h3 className='connectRoad'>01. Connecting Access Roads </h3> 
+             <p><h3 className='connectRoad '>01. Connecting Access Roads </h3> 
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
               in
              
@@ -72,7 +72,7 @@ const AboutUs = () => {
             </a> */}
             </div>
 
-            <div className='col border m-2 p-3  shadow-sm para1'>
+            <div className='col-md-3 border m-2 p-3  shadow-sm para1'>
             <div className=' p-2 pt-3 pb-3 iconDiv'>
             <GiTap/>
              </div>
@@ -85,7 +85,7 @@ const AboutUs = () => {
             
             </div>
 
-            <div className='col border m-2 p-3  shadow-sm para1'>
+            <div className='col-md-3 border m-2 p-3  shadow-sm para1'>
             <div className=' p-2 pt-3 pb-3  iconDiv'>
             <GiAutoRepair/>
              </div>
@@ -100,8 +100,8 @@ const AboutUs = () => {
             </a> */}
             </div>
           
-            <div className='col border m-2  p-3 shadow-sm para1'>
-            <div className=' p-2 pt-3 pb-3 iconDiv'>
+            <div className='col-md-3 border m-2  p-3 shadow-sm para1'>
+               <div className=' p-2 pt-3 pb-3 iconDiv'>
             <MdSecurity/>
              </div>
             <p><h3 className='connectRoad'>04. 24/7 Security Guards  </h3>
@@ -114,10 +114,8 @@ const AboutUs = () => {
               Read More
             </a> */}
             </div>
-              </div>
-            
-            <div className='row'>
-            <div className='col border m-2  p-3  shadow-sm para1'>
+             
+            <div className='col-md-3 border m-2  p-3  shadow-sm para1'>
             <div className=' p-2 pt-3 pb-3  iconDiv'>
             <RiPoliceCarFill/>
              </div>
@@ -132,7 +130,7 @@ const AboutUs = () => {
             </a> */}
             </div>
 
-            <div className='col border m-2  p-3 shadow-sm para1'>
+            <div className='col-md-3 border m-2  p-3 shadow-sm para1'>
             <div className=' p-2 pt-3 pb-3  iconDiv'>
             <MdOutlineLocalParking/>
               </div>
@@ -147,7 +145,7 @@ const AboutUs = () => {
             </a> */}
             </div>
 
-            <div className='col border m-2  p-3  shadow-sm para1'>
+            <div className='col-md-3 border m-2  p-3  shadow-sm para1'>
             <div className=' p-2 pt-3 pb-3  iconDiv'>
             <GiCctvCamera/>
              </div>
@@ -161,7 +159,7 @@ const AboutUs = () => {
               Read More
             </a> */}
             </div>
-            <div className='col border m-2  p-3 shadow-sm  para1'>
+            <div className='col-md-3 border m-2  p-3 shadow-sm  para1'>
              <div className=' p-2 pt-3 pb-3  iconDiv'>
               <FaRegLightbulb/>
              </div>
